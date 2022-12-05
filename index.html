@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+<style>
+    
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');   
+/*  font-family: 'Fraunces', serif;  */
+
+
+body{
+
+
+  background-color: #F2EBE3 ;
+
+
+}
+.card{
+    font-size: 11px; 
+    display: flex;
+    width: 52em;
+    position:fixed;
+    margin: 11rem 25rem;
+    gap: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    
+}
+
+img{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 250px;
+  height: 400px;
+}
+/*
+
+.c a { 
+  color: hsl(228, 45%, 44%);
+
+}
+*/
+.title{
+
+  margin-top: 25px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px; 
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.heading{
+
+  margin-top: 15px;
+  font-size: 28px; 
+  align-items: center;
+  font-weight:700;
+  font-family: 'Fraunces', serif;
+  color: black;
+
+}
+
+
+pre{
+  margin-top: 5px;
+  margin-left: -28px;
+  font-size: 13px; 
+  width: 20em;
+  word-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+  color: black;
+
+}
+
+
+.fixedrate{
+
+  position: absolute;
+  top: 283px;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Fraunces', serif;
+  color: #266d25;
+
+}
+
+.offer{
+
+  position: absolute;
+  top: 293px;
+  left: 420px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cart{
+  
+  position: fixed;
+  width: 220px;
+  height: 40px;
+  top: 515px;
+  left: 690px;
+  background-color: #266d25;
+  border-radius: 10px;
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cart a{
+
+  padding-left: 12px;
+  text-align: center;
+  font-weight: 700;
+  font-family: sans-serif;
+  top: 345px;
+  left: 420px;
+  color: white;
+
+}
+
+
+
+
+
+</style>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  
+
+  <div class="card">
+
+    <img src="image-product-desktop.jpg" alt="" class="cent">
+
+
+  <div class="content">
+     
+    <div class="title">PERFUME</div>
+
+    <div class="heading">  
+      Gabrielle <br>
+      Essence Eau <br>
+      De Parfum</div>
+
+  <pre> 
+     A floral, solar and voluptuous 
+     interpretation composed by 
+     Olivier Polge, Perfumer-Creator
+     for the House of CHANEL.
+  </pre>
+
+
+  <span class="fixedrate"> $149.99 </span>
+  <span class="offer"><strike>$169.99</strike></span>
+
+    </div>
+
+
+    
+  </div>
+
+  <div class="cart"> 
+    <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/></svg>
+    <span><a href="" style="text-decoration: none;">Add to Cart</a></span>
+  
+  </div>
+
+  </div>
+
+
+  
+
+
+</body>
+</html>
+
+<!-- Coded by <a href="#">Pujyam v s s n k dheeraj </a>.-->
